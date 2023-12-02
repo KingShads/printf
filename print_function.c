@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _printf - produces putp0ut according to format
+ * @format: character string argument
+ * Return: number of characters printed
+ */
+
 int _printf(const char *format, ...)
 {
 	int chara_print = 0;
